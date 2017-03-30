@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_toolbar" />
+
+    <ProgressBar
+        android:id="@+id/order_detail_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+    <ListView
+        android:id="@+id/order_detail_products"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:divider="@null" />
+
+    <FrameLayout
+        android:id="@+id/order_detail_confirm_area"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white">
+
+        <Button
+            android:id="@+id/order_detail_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:background="@drawable/normal_btn_bg" />
+
+    </FrameLayout>
+
+</LinearLayout>

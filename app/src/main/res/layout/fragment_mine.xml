@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_toolbar" />
+
+    <TextView
+        android:id="@+id/mine_frag_account"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ripple"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="@string/fragment_mine_account_info"
+        android:textColor="@color/normal_font_color"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/mine_frag_like"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ripple"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="@string/fragment_mine_like"
+        android:textColor="@color/normal_font_color"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/mine_frag_order"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/ripple"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="@string/fragment_mine_order"
+        android:textColor="@color/normal_font_color"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/mine_frag_help"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ripple"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="@string/fragment_mine_help_center"
+        android:textColor="@color/normal_font_color"
+        android:textSize="15sp" />
+
+</LinearLayout>

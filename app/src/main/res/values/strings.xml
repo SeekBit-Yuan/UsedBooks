@@ -1,0 +1,275 @@
+<resources>
+    <string name="app_name">UsedBooks</string>
+
+    <!--  Main Activity-->
+    <string name="activity_main_tab_home">首页</string>
+    <string name="activity_main_tab_shop">购物车</string>
+    <string name="activity_main_tab_add">发布</string>
+    <string name="activity_main_tab_message">消息</string>
+    <string name="activity_main_tab_mine">我的</string>
+    <string name="activity_main_search_hint">搜索图书名称</string>
+
+    <!-- Mine Fragment -->
+    <string name="fragment_mine_title">我的</string>
+    <string name="fragment_mine_account_info">账户管理</string>
+    <string name="fragment_mine_like">我的喜欢</string>
+    <string name="fragment_mine_order">我的订单</string>
+    <string name="fragment_mine_help_center">帮助中心</string>
+
+    <!-- Login Activity -->
+    <string name="activity_login_title">登录</string>
+    <string name="activity_login_tel">手机号</string>
+    <string name="activity_login_tel_hint">输入您的手机号码</string>
+    <string name="activity_login_verify_code">验证码</string>
+    <string name="activity_login_verify_code_hint">输入您收到的验证码</string>
+    <string name="activity_login_get_verify_code">获取验证码</string>
+    <string name="activity_login_verify">验证并登录</string>
+    <string name="activity_login_notice">未注册过的手机将自动创建为会员用户</string>
+    <string name="activity_product_detail_title">商品详情</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">账号</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">Sign in</string>
+
+    <string name="fragment_login_tel">手机号</string>
+    <string name="fragment_login_password">请输入密码</string>
+    <string name="fragment_login_to_register">立即注册</string>
+    <string name="fragment_login_to_apply">立即申请</string>
+    <string name="fragment_login_forget_password">忘记密码？</string>
+    <string name="fragment_login_tel_empty_error">手机号或用户名不能为空</string>
+    <string name="fragment_login_tel_invalid_error">手机号不正确</string>
+    <string name="fragment_login_password_empty_error">密码不能为空</string>
+    <string name="fragment_login_password_invalid_error">密码必须为6-20位</string>
+    <string name="fragment_login_password_safe_error">密码必须为数字和字母的组合</string>
+    <string name="fragment_login_password_reset_error">密码不一致</string>
+    <string name="fragment_login_password_code_empty_error">验证码不能为空</string>
+    <string name="fragment_login_tel_hint">输入您的手机号码</string>
+    <string name="fragment_login_verify_code">验证码</string>
+    <string name="fragment_login_verify_code_hint">输入您收到的验证码</string>
+    <string name="fragment_login_verify">登录</string>
+    <string name="fragment_third_login_notice">已通过第三方验证，请完善信息</string>
+    <string name="fragment_third_login_no_wechat">未安装微信客户端，无法完成第三方验证！</string>
+    <string name="fragment_login_third_party_notice">其他登录方式</string>
+    <string name="fragment_login_get_verify_code_failed">获取验证码失败，请重试！</string>
+    <string name="fragment_login_third_auth_failed">获取第三方认证失败！</string>
+    <string name="fragment_login_verify_wrong">验证码错误！</string>
+    <string name="fragment_login_verify_unknow_error">服务器出错！</string>
+    <string name="fragment_login_user_exist">此手机号已经被注册！</string>
+    <string name="fragment_login_user_already_apply">此手机号正在被审核！</string>
+    <string name="fragment_login_user_unexist">此手机号未注册！</string>
+    <string name="fragment_login_password_mismatch">密码错误！</string>
+    <string name="fragment_login_register_failed">注册失败，请重试！</string>
+    <string name="fragment_login_apply_failed">申请失败，请重试！</string>
+    <string name="fragment_login_apply_dialog_message">申请已提交，审核通过后将通过短信提醒您。</string>
+    <string name="fragment_login_apply_dialog_confirm">确认</string>
+    <string name="fragment_login_login_failed">登录失败，请重试！</string>
+    <string name="fragment_login_out">注销登录</string>
+
+
+    <string name="activity_register_title">注册</string>
+    <string name="activity_register_apply_now">立即申请</string>
+    <string name="activity_register_now">立即注册</string>
+    <string name="activity_register_tel_hint">请输入手机号</string>
+    <string name="activity_bind_tel_hint">请输入要绑定的手机号</string>
+    <string name="activity_bind_email_hint">请输入要绑定的邮箱</string>
+    <string name="activity_register_get_verify_code">获取验证码</string>
+    <string name="activity_register_password_hint">6-20位字母、数字组合密码</string>
+    <string name="activity_register_verify_hint">请输入验证码</string>
+    <string name="activity_register_notice">已有账号？立即登录</string>
+    <string name="activity_register_custom_attr">请选择%1$s</string>
+    <string name="activity_register_custom_attr_input">请输入%1$s</string>
+
+    <string name="activity_register_type">您可以使用一下方式进行注册:</string>
+    <string name="activity_register_type1">提交用户名和密码进行注册:</string>
+    <string name="activity_register_type2">手机号快速注册注册:</string>
+    <string name="activity_register_type3">用户名和密码进行注册并绑定手机号:</string>
+
+    <string name="activity_bind_phone">绑定手机号</string>
+    <string name="activity_bind_email">绑定邮箱</string>
+
+    <string name="activity_forget_password_title">忘记密码</string>
+    <string name="activity_forget_password_tel">手机号</string>
+    <string name="activity_forget_password_next">下一步</string>
+
+    <string name="activity_change_old_password">输入旧密码</string>
+    <string name="activity_change_new_password">输入新密码</string>
+    <string name="activity_change_password">修改密码</string>
+    <string name="activity_reset_password">重置密码</string>
+    <string name="activity_reset_password_title">设置密码</string>
+    <string name="activity_reset_password_confirm">提交</string>
+    <string name="activity_reset_password_repeat">确认新密码</string>
+    <string name="activity_reset_password_failed">重置密码失败，请重试！</string>
+    <string name="activity_reset_password_success">重置成功，请登录！</string>
+
+    <!-- activity product detail -->
+    <string name="currency_china">￥</string>
+    <string name="activity_detail_color">颜色</string>
+    <string name="activity_detail_version">版本</string>
+    <string name="activity_detail_quantity">数量</string>
+    <string name="activity_detail_review">商品评价</string>
+    <string name="activity_detail_spec">规格参数</string>
+    <string name="activity_detail_info">商品详情</string>
+    <string name="activity_detail_fav">喜欢</string>
+    <string name="activity_detail_cart">购物车</string>
+    <string name="activity_detail_add_to_cart">加入购物车</string>
+
+    <!-- Account Info Activity -->
+    <string name="activity_account_info_title">账号信息</string>
+    <string name="activity_account_info_nickname">昵称</string>
+    <string name="activity_account_info_pic">头像</string>
+    <string name="activity_account_info_name">用户名</string>
+    <string name="activity_account_info_address">收货地址</string>
+    <string name="activity_account_info_address_unit">%1$d个</string>
+
+    <string name="dialog_user_photo_title">上传头像</string>
+    <string name="dialog_user_photo_take_pic">拍照</string>
+    <string name="dialog_user_photo_pick_pic">从手机相册选择</string>
+
+    <string name="dialog_username_hint">输入您的用户名</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_ok">确认</string>
+    <string name="toast_update_user_success">信息更新成功</string>
+
+    <!-- Address Activity -->
+    <string name="activity_address_title">收货地址</string>
+    <string name="activity_address_empty">您还没有收货地址\n点击＋开始添加</string>
+    <string name="address_del_dialog_message">确定删除此收货地址？</string>
+    <string name="address_del_dialog_confirm">确定</string>
+    <string name="address_del_dialog_cancel">取消</string>
+    <string name="toast_address_del_success">删除收货地址成功</string>
+    <string name="toast_address_del_failed">删除收货地址失败</string>
+
+    <!-- Add Address Activity -->
+    <string name="activity_add_address_add">添加地址</string>
+    <string name="activity_add_address_modify">修改地址</string>
+    <string name="activity_add_address_name">联系人</string>
+    <string name="activity_add_address_name_hint">请输入联系人姓名</string>
+    <string name="activity_add_address_tel">联系电话</string>
+    <string name="activity_add_address_tel_hint">请输入联系电话</string>
+    <string name="activity_add_address_address">收货地址</string>
+    <string name="activity_add_address_address_hint">请输入详细地址</string>
+    <string name="activity_add_address_confirm">确定</string>
+    <string name="activity_update_address_empty">%1$s不能为空</string>
+    <string name="activity_update_address_tel_error">电话号码格式错误</string>
+    <string name="activity_add_address_add_success">添加地址成功</string>
+    <string name="activity_add_address_update_success">更新地址成功</string>
+    <string name="activity_add_address_del_success">删除地址成功</string>
+
+    <!-- My Order Activity -->
+    <string name="activity_my_order_title">我的订单</string>
+    <string name="activity_my_order_no">订单号：%1$s</string>
+    <string name="activity_my_order_state_cancel">取消订单</string>
+    <string name="activity_my_order_state_canceled">订单已取消</string>
+    <string name="activity_my_order_state_deliver">商品待发货</string>
+    <string name="activity_my_order_state_delivered">商品已发货</string>
+    <string name="activity_my_order_state_done">交易已完成</string>
+    <string name="activity_my_order_state_commented">商品已评论</string>
+    <string name="activity_my_order_product_no">共%1$d件</string>
+    <string name="activity_my_order_product_price">¥%1$.1f</string>
+    <string name="activity_my_order_total">总额：¥%1$.1f</string>
+    <string name="activity_my_order_order_time">下单时间：%1$s</string>
+    <string name="activity_my_order_order_pay">剩余付款时间：%1$s(逾期将自动取消)</string>
+    <string name="activity_my_order_to_pay">去支付</string>
+    <string name="activity_my_order_to_confirm">确认送达</string>
+    <string name="activity_my_order_to_comment">去评价</string>
+    <string name="activity_my_order_empty">您还没有任何订单</string>
+    <string name="dialog_order_handling">处理中...</string>
+
+    <!-- Comment Activity -->
+    <string name="activity_comment_title">评价</string>
+    <string name="activity_comment_confirm">提交评价</string>
+    <string name="activity_comment_product_no">共%1$d件</string>
+    <string name="activity_comment_service">服务态度</string>
+    <string name="activity_comment_hint">评价内容输入区域</string>
+    <string name="activity_comment_success">评论成功</string>
+    <string name="activity_comment_failed">请评论完所有商品！</string>
+
+    <!-- Product Adapter -->
+    <string name="product_price">¥%1$.1f</string>
+    <string name="product_comment_count">%1$d人评价</string>
+
+    <!-- Order Confirm Activity -->
+    <string name="activity_order_confirm_title">订单确认</string>
+    <string name="activity_order_confirm_input_address">请填写地址</string>
+    <string name="activity_order_confirm_pay">货到付款</string>
+    <string name="activity_order_confirm_pay_no_choice">商家只支持货到付款</string>
+    <string name="activity_order_confirm_remarks">备注</string>
+    <string name="activity_order_confirm_remarks_hint">点击添加备注</string>
+    <string name="activity_order_confirm_receipt">发票信息</string>
+    <string name="activity_order_confirm_receipt_hint">不需要发票</string>
+    <string name="activity_order_confirm_list">商品列表</string>
+    <string name="activity_order_confirm_total">总计：</string>
+    <string name="activity_order_confirm_total_price">¥%1$.1f</string>
+    <string name="activity_order_confirm_commit">提交订单</string>
+    <string name="activity_order_confirm_committing">处理中...</string>
+    <string name="remarks_dialog_title">备注</string>
+    <string name="remarks_dialog_hint">输入备注信息</string>
+    <string name="receipt_dialog_type_title">发票类型</string>
+    <string name="receipt_dialog_type1">商业零售发票(单位)</string>
+    <string name="receipt_dialog_type2">商业零售发票(个人)</string>
+    <string name="receipt_dialog_content_title">发票内容</string>
+    <string name="receipt_dialog_content1">商品明细</string>
+    <string name="receipt_dialog_content2">办公用品</string>
+    <string name="receipt_dialog_content3">电脑配件</string>
+    <string name="receipt_dialog_content4">耗材</string>
+    <string name="receipt_dialog_heading_title">发票抬头</string>
+    <string name="receipt_dialog_heading_hint">输入发票抬头</string>
+    <string name="receipt_dialog_cancel">取消</string>
+    <string name="receipt_dialog_forward">上一步</string>
+    <string name="receipt_dialog_next">下一步</string>
+    <string name="receipt_dialog_confirm">确认</string>
+    <string name="activity_order_confirm_no_address">请选择送货地址</string>
+
+    <!-- Order Detail Activity -->
+    <string name="activity_order_detail_title">订单详情</string>
+    <string name="activity_order_detail_receive_user">收货人：%1$s</string>
+    <string name="activity_order_detail_receive_address">收货地址：%1$s</string>
+    <string name="activity_order_detail_order_time">下单时间：%1$s</string>
+    <string name="activity_order_detail_deliver_type">配送方式：%1$s</string>
+    <string name="activity_order_detail_remarks">备注：%1$s</string>
+    <string name="activity_order_detail_receipt_type">发票类型：%1$s</string>
+    <string name="activity_order_detail_receipt_content">发票内容：%1$s</string>
+    <string name="activity_order_detail_receipt_heading">发票抬头：%1$s</string>
+    <string name="activity_order_detail_no_string">无</string>
+
+    <!-- Search Activity -->
+    <string name="activity_search_sort">排序</string>
+    <string name="activity_search_history">历史搜索词</string>
+    <string name="activity_search_clear">清除</string>
+    <string name="activity_search_empty">没有搜索到</string>
+    <string name="activity_search_sort_price_up">价格从小到大</string>
+    <string name="activity_search_sort_price_down">价格从大到小</string>
+    <string name="activity_search_sort_sell_down">销量从大到小</string>
+    <string name="activity_search_sort_sell_up">销量从小到大</string>
+
+    <!-- activity review -->
+    <string name="activity_review_title">商品评价</string>
+    <string name="activity_review_greate">满意（%1$d）</string>
+    <string name="activity_review_normal">一般（%1$d）</string>
+    <string name="activity_review_bad">不满意（%1$d）</string>
+
+    <string name="empty">无数据</string>
+    <string name="activity_spec_title">规格参数</string>
+    <string name="activity_product_detail_services">服务：</string>
+    <string name="activity_product_detail_unit_origin">原价：¥%1$.1f</string>
+    <string name="activity_product_detail_choice_title">请选择</string>
+    <string name="activity_product_detail_price">¥%1$.1f</string>
+    <string name="activity_product_detail_already_in_cart">已经添加到购物车</string>
+
+
+    <!-- frag shop -->
+    <string name="frag_shop_total_pay_label">总价(不计运费)</string>
+    <string name="frag_shop_to_pay">去结算</string>
+    <string name="frag_shop_to_main_page">去首页逛逛</string>
+    <string name="frag_shop_empty_label">您的购物车空空如也</string>
+    <string name="frag_shop_title">购物车</string>
+    <string name="frag_shop_toolbar_edit">编辑</string>
+    <string name="frag_shop_toolbar_edit_done">完成</string>
+
+    <!-- dialog string -->
+    <string name="dialog_shop_delete_confirm_notice">你确定要删除此商品吗？</string>
+    <string name="dialog_shop_delete_confirm_sure">确定</string>
+    <string name="dialog_shop_delete_confirm_cancel">取消</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorPrimary"
+    android:minHeight="?attr/actionBarSize">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:paddingRight="16dp">
+
+        <EditText
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="4dp"
+            android:layout_marginRight="16dp"
+            android:layout_toLeftOf="@+id/sort"
+            android:hint="@string/activity_main_search_hint"
+            android:imeActionLabel="Search"
+            android:imeOptions="actionSearch"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/white_half_alpha"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/sort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/activity_search_sort"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.Toolbar>

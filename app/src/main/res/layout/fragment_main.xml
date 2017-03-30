@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_toolbar_main" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/CarouselView"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentStart="true">
+
+        <com.seek.usedbooks.ui.CarouselViewPager
+            android:id="@+id/mCarouselView"
+            android:layout_width="match_parent"
+            android:layout_height="180dp">
+        </com.seek.usedbooks.ui.CarouselViewPager>
+
+    </LinearLayout>
+
+    <!--轮播图片的指示点-->
+    <LinearLayout
+        android:id="@+id/pointLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_alignBottom="@+id/CarouselView"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/CarouselView">
+
+        <GridView
+            android:id="@+id/gridview"
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:numColumns="5"></GridView>
+    </LinearLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Gridview">
+
+        <ListView
+            android:id="@+id/frag_main_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_main"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="1px">
+
+        </ListView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</RelativeLayout>

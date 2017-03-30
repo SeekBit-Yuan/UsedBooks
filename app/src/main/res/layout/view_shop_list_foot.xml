@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/total_pay_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/frag_shop_total_pay_label"
+        android:textColor="@color/normal_hint_color"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/total_pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/total_pay_label"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/text_color_orange"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/pay_button"
+        android:layout_width="92dp"
+        android:layout_height="46dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/normal_btn_bg"
+        android:text="@string/frag_shop_to_pay"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+</RelativeLayout>

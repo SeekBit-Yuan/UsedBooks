@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_register_type" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/rb_type1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_register_type1" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/rb_type2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_register_type2" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/rb_type3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_register_type3" />
+
+        </RadioGroup>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/register_tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:theme="@style/TextLabel">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:hint="@string/activity_register_tel_hint"
+                android:lines="1"
+                android:singleLine="true"
+                android:textColor="@color/normal_font_color"
+                android:textColorHint="@color/normal_hint_color"
+                android:textSize="17sp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/register_verify_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:theme="@style/TextLabel">
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:hint="@string/activity_register_verify_hint"
+                    android:inputType="number"
+                    android:lines="1"
+                    android:maxLength="10"
+                    android:singleLine="true"
+                    android:textColor="@color/normal_font_color"
+                    android:textColorHint="@color/normal_hint_color"
+                    android:textSize="17sp" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:id="@+id/register_verify_code_get"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/get_validate_btn_bg"
+                android:gravity="center"
+                android:text="@string/activity_register_get_verify_code"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/register_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:theme="@style/TextLabel">
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:hint="@string/activity_register_password_hint"
+                    android:inputType="textPassword"
+                    android:lines="1"
+                    android:maxLength="20"
+                    android:singleLine="true"
+                    android:textColor="@color/normal_font_color"
+                    android:textColorHint="@color/normal_hint_color"
+                    android:textSize="17sp" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <ImageView
+                android:id="@+id/register_password_visible"
+                android:layout_width="40dp"
+                android:layout_height="24dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="18dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/btn_login_show_normal" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/register_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btn_bg"
+            android:text="@string/activity_register_now"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/progress_bar_area"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_dialog"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

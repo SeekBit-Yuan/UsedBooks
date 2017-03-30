@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width= "match_parent"
+    android:layout_height= "match_parent"
+    android:orientation="vertical" >
+
+    <!-- 显示的图片 -->
+    <ImageView
+        android:id= "@+id/itemImage"
+        android:layout_height= "wrap_content"
+        android:layout_width= "wrap_content"
+        android:paddingTop="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="1dp"
+        android:layout_gravity= "center">
+    </ImageView >
+
+    <!-- 显示的文字 -->
+    <TextView
+        android:id= "@+id/itemText"
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        android:textSize="11dp"
+        android:layout_marginTop="0pt"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="0dp"
+        android:layout_gravity= "center">
+    </TextView >
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/change_password_old"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:theme="@style/TextLabel">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:hint="@string/activity_change_old_password"
+            android:inputType="textPassword"
+            android:lines="1"
+            android:maxLength="20"
+            android:singleLine="true"
+            android:textColor="@color/normal_font_color"
+            android:textColorHint="@color/normal_hint_color"
+            android:textSize="17sp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/change_password_new"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:theme="@style/TextLabel">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:hint="@string/activity_change_new_password"
+            android:inputType="textPassword"
+            android:lines="1"
+            android:maxLength="20"
+            android:singleLine="true"
+            android:textColor="@color/normal_font_color"
+            android:textColorHint="@color/normal_hint_color"
+            android:textSize="17sp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/change_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_bg"
+        android:text="@string/activity_reset_password_confirm"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+
+
+</LinearLayout>

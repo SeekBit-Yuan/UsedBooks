@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"
+        android:paddingLeft="16dp"
+        android:paddingRight="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:gravity="center_vertical"
+            android:text="@string/activity_add_address_name"
+            android:textColor="@color/normal_font_color"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/add_address_name"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="76dp"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:hint="@string/activity_add_address_name_hint"
+            android:singleLine="true"
+            android:textColor="@color/normal_hint_color"
+            android:textColorHint="@color/normal_hint_color"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="1dp"
+        android:background="@android:color/white"
+        android:paddingLeft="16dp"
+        android:paddingRight="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:gravity="center_vertical"
+            android:text="@string/activity_add_address_tel"
+            android:textColor="@color/normal_font_color"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/add_address_tel"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="76dp"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:hint="@string/activity_add_address_tel_hint"
+            android:inputType="phone"
+            android:singleLine="true"
+            android:textColor="@color/normal_hint_color"
+            android:textColorHint="@color/normal_hint_color"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@android:color/white"
+        android:minHeight="48dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:gravity="center_vertical"
+            android:text="@string/activity_add_address_address"
+            android:textColor="@color/normal_font_color"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/add_address_street"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="76dp"
+            android:background="@android:color/transparent"
+            android:hint="@string/activity_add_address_address_hint"
+            android:maxLines="2"
+            android:minHeight="48dp"
+            android:paddingBottom="11dp"
+            android:paddingTop="11dp"
+            android:textColor="@color/normal_hint_color"
+            android:textColorHint="@color/normal_hint_color"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/add_address_confirm"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/normal_btn_bg"
+        android:gravity="center"
+        android:text="@string/activity_add_address_confirm"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+    <RelativeLayout
+        android:id="@+id/add_address_progress_rl"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="-50dp"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</LinearLayout>
