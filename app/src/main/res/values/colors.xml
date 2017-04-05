@@ -13,7 +13,7 @@
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
     <color name="bg_main">#EEEEEC</color>
-    <color name="bg_dialog">#80000000</color>
+    <color name="bg_dialog">#2c2c2c</color>
     <color name="bg_btn">#19CAAD</color>
     <color name="bg_btn_text">#2c2c2c</color>
     <color name="bg_btn_selected">#009688</color>
@@ -42,5 +42,8 @@
     <color name="color_primary_selected">#800FFFF0</color>
     <color name="bg_get_validate_btn">#19CAAD</color>
     <color name="bg_get_validate_btn_selected">#BFBFBF</color>
+
+    <color name="bg_add_title">#BFBFBF</color>
+    <color name="bg_add_button">#e6e6e6</color>
 
 </resources>

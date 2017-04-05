@@ -16,6 +16,15 @@
     <string name="fragment_mine_order">我的订单</string>
     <string name="fragment_mine_help_center">帮助中心</string>
 
+    <!--Add Fragment-->
+    <string name="fragment_add_book_title">书名 出版版本作者都是用户喜欢搜索的</string>
+    <string name="fragment_add_account_info">书本描述</string>
+    <string name="fragment_add_price">价格    ￥0.00</string>
+    <string name="fragment_add_category">分类     请选择分类</string>
+    <string name="fragment_add_confirm">确认发布</string>
+    <string name="fragment_add_pic">添加图片</string>
+
+
     <!-- Login Activity -->
     <string name="activity_login_title">登录</string>
     <string name="activity_login_tel">手机号</string>
